@@ -17,7 +17,12 @@ This is aimed to show the core part excluding the video editor
 # Additional plugins
 
 - Kotlin serialization plugin
-
+  Find kotlin version in build.gradle.kts(poject-level) or in
+  Terminal
+  ```bash
+  ./gradlew -version
+use this in plugin-kotlin
+  
 # Related implementation dependencies
 
 - implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1")
